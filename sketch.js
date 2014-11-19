@@ -91,11 +91,11 @@ function drawSnow2(){
 function drawSnow3(){
     noStroke();
 
-    fill(89,47,19);
-    ellipse(450,dir3+20,3,3);
+    fill(127,203,183);
+    ellipse(490,dir3+20,3,3);
     ellipse(475,dir3+33,4,4);
     ellipse(460,dir3+27,7,7);
-    ellipse(423,dir3+10,5,5);
+    ellipse(483,dir3+10,5,5);
     ellipse(480,dir3+16,3,3);
     
     dir3=dir2+0.3;    
