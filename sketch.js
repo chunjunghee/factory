@@ -31,7 +31,7 @@ function setup()
 function draw()
 {
     background(bg);
-    drawSnow();
+    drawSnow1();
 
     fill(237,112,50);
     noStroke();
@@ -48,8 +48,8 @@ function draw()
 
     } 
 
-function drawSnow(){
-    var r=Math.random();
+function drawSnow1(){
+
     noStroke();
     
     fill(234,147,183); 
