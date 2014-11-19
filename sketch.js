@@ -12,8 +12,8 @@ var photo4;
 var photo5;  
 var photo6;
 var photo7;
-
-
+var photo8;
+var photo9;
 function setup()
 {
     createCanvas(641,901);
@@ -27,6 +27,8 @@ function setup()
     photo5 = loadImage("rightLine.png");
     photo6 = loadImage("candyBox.png");
     photo7 = loadImage("candy1.png");
+    photo8 = loadImage("candy2.png");
+    photo9 = loadImage("candy3.png");
 
     count=0;
 
@@ -56,12 +58,24 @@ function draw()
     image(photo5,568,117);
     image(photo6,562,375);
     
-    image(photo7,580,count);
+    image(photo7,574,count);
     count=count+2;
-     if(count>350){
+     if(count>360){
     count=0;
     }  
 
+    image(photo8,582,count);
+    count=count+2;
+     if(count>360){
+    count=0;
+    }  
+
+
+    image(photo9,590,count);
+    count=count+2;
+     if(count>360){
+    count=0;
+    }  
     
 
     } 
