@@ -33,7 +33,7 @@ function draw()
     background(bg);
     drawSnow1();
     drawSnow2();
-    
+
     fill(237,112,50);
     noStroke();
 
@@ -80,12 +80,12 @@ function drawSnow2(){
 
     fill(89,47,19);
     ellipse(380,dir1+20,3,3);
-    ellipse(410,dir1+33,4,4);
+    ellipse(365,dir1+33,4,4);
     ellipse(378,dir1+27,7,7);
     ellipse(390,dir1+10,5,5);
     ellipse(396,dir1+16,3,3);
     
-    dir1=dir1+0.5;    
+    dir1=dir1+1;    
     if(dir1>130){
      dir1=40;
  }
