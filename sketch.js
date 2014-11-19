@@ -3,12 +3,15 @@ var dir1=1;
 var dir2=1;
 var dir3=1;
 
+var count;
+
 var photo;
 var photo2; 
 var photo3; 
 var photo4;
 var photo5;  
 var photo6;
+var photo7;
 
 
 function setup()
@@ -23,6 +26,9 @@ function setup()
     photo4 = loadImage("candyBox2.png");
     photo5 = loadImage("rightLine.png");
     photo6 = loadImage("candyBox.png");
+    photo7 = loadImage("candy1.png");
+
+    count=0;
 
 
 
@@ -36,6 +42,7 @@ function draw()
     drawSnow1();
     drawSnow2();
     drawSnow3();
+    
 
     fill(237,112,50);
     noStroke();
@@ -46,8 +53,9 @@ function draw()
     image(photo2,347,124);
     image(photo3,444,124);
     image(photo4,544,0);
-    image(photo5,568,117)
-    image(photo6,562,375)
+    image(photo5,568,117);
+    image(photo6,562,375);
+    image(photo7,562,count);
 
     
 
