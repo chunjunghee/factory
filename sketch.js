@@ -1,5 +1,6 @@
 var bg;
 var dir1=1;
+var dir2=1;
 
 var photo;
 var photo2; 
@@ -79,15 +80,15 @@ function drawSnow2(){
     noStroke();
 
     fill(89,47,19);
-    ellipse(380,dir1+20,3,3);
-    ellipse(365,dir1+33,4,4);
-    ellipse(378,dir1+27,7,7);
-    ellipse(390,dir1+10,5,5);
-    ellipse(396,dir1+16,3,3);
+    ellipse(380,dir2+20,3,3);
+    ellipse(365,dir2+33,4,4);
+    ellipse(378,dir2+27,7,7);
+    ellipse(390,dir2+10,5,5);
+    ellipse(396,dir2+16,3,3);
     
-    dir1=dir1+1;    
-    if(dir1>130){
-     dir1=40;
+    dir2=dir2+1;    
+    if(dir2>130){
+     dir2=40;
  }
 
 }
