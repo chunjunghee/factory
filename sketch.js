@@ -1,8 +1,8 @@
 var bg;
 
-var img;  
-var img2;
-var img3;
+var photo;
+var photo2; 
+var photo3; 
 
 
 function setup()
@@ -11,6 +11,7 @@ function setup()
     bg = loadImage("bg.png");
     img = loadImage("sugarBox.png");
     img2 = loadImage("midBox.png");
+    photo = loadImage("up1.png");
 
 }
 
@@ -23,5 +24,6 @@ function draw()
     noStroke();
  
     image(img,254,0);
+    image(photo,248,124);
 
     } 
