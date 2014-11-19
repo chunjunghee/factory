@@ -71,14 +71,14 @@ function draw()
 
     image(photo8,582,count1+100);
     count1=count1+1;
-     if(count1>360){
+     if(count1>280){
     count1=0;
     }  
 
 
     image(photo9,590,count2+50);
     count2=count2+1.5;
-     if(count2>360){
+     if(count2>300){
     count2=0;
     }  
     
