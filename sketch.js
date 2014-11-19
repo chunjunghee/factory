@@ -3,6 +3,8 @@ var bg;
 var photo;
 var photo2; 
 var photo3; 
+var photo4;
+var photo5;  
 
 
 function setup()
@@ -14,6 +16,10 @@ function setup()
     photo = loadImage("up1.png");
     photo2 = loadImage("up2.png");
     photo3 = loadImage("up3.png");
+    photo4 = loadImage("candyBox2.png");
+    photo5 = loadImage("rightLine.png");
+
+
 
 
 }
@@ -30,5 +36,7 @@ function draw()
     image(photo,248,124);
     image(photo2,347,124);
     image(photo3,444,124);
+    image(photo4,554,0);
+    image(photo5,568,117)
 
     } 
