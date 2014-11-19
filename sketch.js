@@ -54,7 +54,7 @@ function drawSnow(){
     
     fill(234,147,183);
     ellipse(285,dir1,5,5);
-    ellipse(290,dir1+50,3,3);
+    ellipse(290,dir1+r,3,3);
     ellipse(278,dir1+r,7,7);
     
     dir1=dir1+1;    
