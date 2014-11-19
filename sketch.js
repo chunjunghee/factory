@@ -56,9 +56,9 @@ function draw()
     image(photo5,568,117);
     image(photo6,562,375);
     
-    image(photo7,600,count);
+    image(photo7,580,count);
     count=count+2;
-     if(count>270){
+     if(count>300){
     count=0;
     }  
 
