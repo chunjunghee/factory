@@ -4,6 +4,9 @@ var dir2=1;
 var dir3=1;
 
 var count;
+var count1;
+var count2;
+
 
 var photo;
 var photo2; 
@@ -64,17 +67,17 @@ function draw()
     count=0;
     }  
 
-    image(photo8,582,count+100);
-    count=count+0.5;
-     if(count>360){
-    count=0;
+    image(photo8,582,count1+100);
+    count1=count1+0.5;
+     if(count1>360){
+    count1=0;
     }  
 
 
-    image(photo9,590,count+50);
-    count=count+1;
-     if(count>360){
-    count=0;
+    image(photo9,590,count2+50);
+    count2=count2+1;
+     if(count2>360){
+    count2=0;
     }  
     
 
