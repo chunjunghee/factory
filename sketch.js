@@ -34,6 +34,8 @@ function setup()
     photo9 = loadImage("candy3.png");
 
     count=0;
+    count1=0;
+    count2=0;
 
 
 
