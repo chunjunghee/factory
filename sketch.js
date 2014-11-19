@@ -37,6 +37,6 @@ function draw()
     image(photo2,347,124);
     image(photo3,444,124);
     image(photo4,554,0);
-    image(photo5,568,117)
+    image(photo5,570,117)
 
     } 
