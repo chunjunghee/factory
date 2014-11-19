@@ -64,14 +64,14 @@ function draw()
     count=0;
     }  
 
-    image(photo8,582,count);
+    image(photo8,400,count);
     count=count+2.5;
      if(count>360){
     count=0;
     }  
 
 
-    image(photo9,590,count);
+    image(photo9,240,count);
     count=count+1;
      if(count>360){
     count=0;
