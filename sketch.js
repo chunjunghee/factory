@@ -60,7 +60,7 @@ function drawSnow(){
     ellipse(285,dir1+10,5,5);
     ellipse(290,dir1+16,3,3);
     
-    dir1=dir1-1;    
+    dir1=dir1+0.5;    
     if(dir1>130){
      dir1=40;
  }
