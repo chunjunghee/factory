@@ -1,4 +1,5 @@
 var bg;
+var dir1=1;
 
 var photo;
 var photo2; 
@@ -54,7 +55,7 @@ function drawSnow(){
 
     fill(255);
     ellipse(260,dir1,10,10);
-    ellipse(263,dir1+500,10,10);
+    ellipse(263,dir1+50,10,10);
     ellipse(200,dir1+r,30,30);
     
     dir1=dir1+3;     
