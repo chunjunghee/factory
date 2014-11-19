@@ -52,13 +52,20 @@ function drawSnow(){
     var r=Math.random();
     noStroke();
     
-    fill(234,147,183);
-    
+    fill(234,147,183); 
     ellipse(265,dir1+20,3,3);
     ellipse(270,dir1+33,4,4);
     ellipse(278,dir1+27,7,7);
     ellipse(285,dir1+10,5,5);
     ellipse(290,dir1+16,3,3);
+
+
+    fill(89,47,19);
+    ellipse(380,dir1+20,3,3);
+    ellipse(370,dir1+33,4,4);
+    ellipse(378,dir1+27,7,7);
+    ellipse(360,dir1+10,5,5);
+    ellipse(366,dir1+16,3,3);
     
     dir1=dir1+0.5;    
     if(dir1>130){
