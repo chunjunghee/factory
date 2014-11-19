@@ -30,6 +30,7 @@ function setup()
 function draw()
 {
     background(bg);
+    drawSnow();
 
     fill(237,112,50);
     noStroke();
@@ -42,7 +43,7 @@ function draw()
     image(photo5,568,117)
     image(photo6,562,375)
 
-    drawSnow();
+    
 
     } 
 
