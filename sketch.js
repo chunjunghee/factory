@@ -50,9 +50,8 @@ function draw()
 
 function drawSnow(){
     var r=Math.random();
-    stroke(255,255,255,128);
-    strokeWeight(20);
-
+    noStroke();
+    
     fill(234,147,183);
     ellipse(285,dir1,5,5);
     ellipse(290,dir1+50,3,3);
