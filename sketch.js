@@ -59,7 +59,7 @@ function drawSnow(){
     
     dir1=dir1+1;    
     if(dir1>100){
-     dir1=-800;
+     dir1=50;
  }
 
 }    
