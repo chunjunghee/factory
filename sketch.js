@@ -42,4 +42,23 @@ function draw()
     image(photo5,568,117)
     image(photo6,562,375)
 
+    drawSnow();
+
     } 
+
+function drawSnow(){
+    var r=Math.random();
+    stroke(255,255,255,128);
+    strokeWeight(20);
+
+    fill(255);
+    ellipse(260,dir1,10,10);
+    ellipse(263,dir1+500,10,10);
+    ellipse(200,dir1+r,30,30);
+    
+    dir1=dir1+3;     
+    if(dir1>100){
+     dir1=-800;
+ }
+
+}    
