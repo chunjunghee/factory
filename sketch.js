@@ -166,12 +166,12 @@ function draw()
     } 
     
     if(f){
-        if(c < -10){
+        if(c < -17){
             c=0;
             f=false;
         }else{
             stroke(255,255,255,128);
-            strokeWeight(10);
+            strokeWeight(7);
             fill(255,255,255);
             ellipse(305,500+c*5,30,30);
             ellipse(295,530+c*5,10,10);
