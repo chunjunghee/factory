@@ -80,7 +80,7 @@ function setup()
     count=0;
     count1=0;
     count2=0;
-    
+
     c = 0;
 
 }
@@ -173,9 +173,9 @@ function draw()
             stroke(255,255,255,128);
             strokeWeight(10);
             fill(255,255,255);
-            ellipse(305,470+c*5,30,30);
-            ellipse(295,500+c*5,10,10);
-            ellipse(315,530+c*5,7,7);
+            ellipse(305,500+c*5,30,30);
+            ellipse(295,530+c*5,10,10);
+            ellipse(315,560+c*5,7,7);
             c= c-1;
         }
 
