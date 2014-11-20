@@ -164,13 +164,13 @@ function draw()
     } 
     
     if(f){
-        if(c > 10){
+        if(c < -10){
             c=0;
             f=false;
         }else{
             fill(255,255,0);
-            ellipse(300,449+c*5,30,30);
-            c= c+1;
+            ellipse(305,449+c*5,30,30);
+            c= c-1;
         }
 
     }
