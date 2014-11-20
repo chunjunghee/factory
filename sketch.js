@@ -168,8 +168,9 @@ function draw()
             c=0;
             f=false;
         }else{
-            fill(255,255,0);
+            fill(255,255,255);
             ellipse(305,470+c*5,30,30);
+            ellipse(295,495+c*5,10,10);
             c= c-1;
         }
 
