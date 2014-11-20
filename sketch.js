@@ -169,7 +169,7 @@ function draw()
             f=false;
         }else{
             stroke(255,255,255,128);
-            strokeWeight(5);
+            strokeWeight(10);
             fill(255,255,255);
             ellipse(305,470+c*5,30,30);
             ellipse(295,500+c*5,10,10);
