@@ -38,7 +38,7 @@ var c;
 
 function setup()
 {
-    c = 0;
+    
 
 
     createCanvas(641,901);
@@ -80,6 +80,8 @@ function setup()
     count=0;
     count1=0;
     count2=0;
+    
+    c = 0;
 
 }
 
