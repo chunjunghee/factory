@@ -169,7 +169,7 @@ function draw()
             f=false;
         }else{
             fill(255,255,0);
-            ellipse(305,449+c*5,30,30);
+            ellipse(305,470+c*5,30,30);
             c= c-1;
         }
 
