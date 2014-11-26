@@ -312,6 +312,25 @@ function draw()
 
     }
 
+    function drawWater(){
+    noStroke();
+    
+    fill(255); 
+    ellipse(100,dir1+20,3,3);
+    ellipse(95,dir1+33,4,4);
+    ellipse(115,dir1+27,7,7);
+    ellipse(105,dir1+10,5,5);
+    ellipse(89,dir1+16,3,3);
+
+
+    dir1=dir1+1.5;    
+    if(dir1>300){
+     dir1=153;
+    }
+
+    }    
+
+
 var f = false;
     function mouseClicked(){
         if (!f){
