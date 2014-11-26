@@ -103,6 +103,7 @@ function draw()
     image(photo3,444,124);
     
     image(photo5,568,117);
+    image(photo10,650,259);
     
 
     var duration = 3000;
