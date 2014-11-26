@@ -84,6 +84,8 @@ function setup()
     photo16 = loadImage("apple1.png")
     photo17 = loadImage("apple2.png")
     photo18 = loadImage("apple3.png")
+    photo19 = loadImage("banana1.png")
+    photo20 = loadImage("banana2.png")
 
 
 
@@ -214,6 +216,19 @@ function draw()
         image(photo16,978,130+c*5);
         image(photo17,955,170+c*5,30,30);
         image(photo18,925,124+c*5);
+        c= c-1;
+        }
+
+
+    }
+
+    if(f){
+    if(c < -17){
+        c=0;
+        f=false;
+    }else{
+        image(photo19,1084,130+c*5);
+        image(photo20,1141,113+c*5);
         c= c-1;
         }
 
