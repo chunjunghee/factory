@@ -239,9 +239,9 @@ function drawWater(){
     ellipse(90,dir1+16,10,10);
 
 
-    dir1=dir1+1.5;    
-    if(dir1>1000){
-     dir1=600;
+    dir1=dir1+3;    
+    if(dir1>300){
+     dir1=40;
     }
 
     }    
