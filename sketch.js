@@ -210,7 +210,7 @@ function draw()
         c=0;
         f=false;
     }else{
-        image(apple1,978+c*5,156)
+        image(apple1,978+c*5,156);
         c= c-1;
         }
 
