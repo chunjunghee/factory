@@ -328,13 +328,13 @@ var f = false;
     
     fill(255); 
     ellipse(100,dir4+20,10,10);
-    //ellipse(270,dir1+33,4,4);
-    //ellipse(278,dir1+27,7,7);
+    ellipse(95,dir1+33,7,7);
+    ellipse(120,dir1+27,15,15);
     //ellipse(285,dir1+10,5,5);
     //ellipse(290,dir1+16,3,3);
 
 
-    dir4=dir4+1.5;    
+    dir4=dir4+3;    
     if(dir4>300){
      dir4=79;
     }
