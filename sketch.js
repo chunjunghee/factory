@@ -25,6 +25,7 @@ var photo3;
 var photo4;
 var photo5;  
 var photo6;
+var photo16;
 
 
 var cup5;
