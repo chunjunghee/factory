@@ -326,7 +326,7 @@ var f = false;
     function drawWater(){
     noStroke();
     
-    fill(255); 
+    fill(254,252,236); 
     ellipse(100,dir4+30,10,10);
     ellipse(95,dir4+10,7,7);
     ellipse(110,dir4+7,5,5);
