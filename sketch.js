@@ -101,7 +101,7 @@ function draw()
     drawSnow1();
     drawSnow2();
     drawSnow3();
-    drawWater();
+    
 
 
     image(photo,248,124);
@@ -228,8 +228,7 @@ function draw()
 }
 
 
-
-function drawSnow1(){
+    function drawSnow1(){
     noStroke();
     
     fill(234,147,183); 
