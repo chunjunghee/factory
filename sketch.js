@@ -334,7 +334,7 @@ var f = false;
 
 
     dir1=dir1+1.5;    
-    if(dir1>1000){
+    if(dir1>3000){
      dir1=79;
     }
 
