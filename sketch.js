@@ -327,10 +327,10 @@ var f = false;
     noStroke();
     
     fill(255); 
-    ellipse(100,dir4+20,10,10);
+    ellipse(100,dir4+30,10,10);
     ellipse(95,dir4+10,7,7);
     ellipse(110,dir4+5,5,5);
-    //ellipse(285,dir1+10,5,5);
+    ellipse(285,dir4+2,15,501);
     //ellipse(290,dir1+16,3,3);
 
 
