@@ -211,8 +211,8 @@ function draw()
         c=0;
         f=false;
     }else{
-        image(photo16,978,156+c*5,30,30);
-        image(photo17,1022,170+c*5,10,10);
+        image(photo16,978,156+c*5);
+        image(photo17,1022,170+c*5);
         //ellipse(315,560+c*5,7,7);
         c= c-1;
         }
