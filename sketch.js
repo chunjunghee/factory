@@ -24,7 +24,6 @@ var photo3;
 var photo4;
 var photo5;  
 var photo6;
-var photo7;
 
 
 var cup5;
@@ -39,10 +38,10 @@ var c;
 
 function setup()
 {
-    
+    c = 0;
 
 
-    createCanvas(1280,908);
+    createCanvas(641,901);
     bg = loadImage("bg.png");
     img = loadImage("sugarBox.png");
     img2 = loadImage("midBox.png");
@@ -64,7 +63,6 @@ function setup()
     photo4 = loadImage("candyBox2.png");
     photo5 = loadImage("rightLine.png");
     photo6 = loadImage("candyBox.png");
-    photo7 = loadImage("midCandyBox.png");
     cup5 = loadImage("cup5.png");
     cup6 = loadImage("cup6.png");
     cup7 = loadImage("cup7.png");
@@ -82,8 +80,6 @@ function setup()
     count=0;
     count1=0;
     count2=0;
-
-    c = 0;
 
 }
 
@@ -106,7 +102,6 @@ function draw()
     image(photo3,444,124);
     
     image(photo5,568,117);
-    image(photo7,650,259);
     
 
     var duration = 3000;
@@ -131,7 +126,7 @@ function draw()
     } 
 
 
-    image(img2,204,499);
+  
     image(img3,495,451);
 
 
@@ -167,23 +162,40 @@ function draw()
     image(cup2,408,264);
 
     } 
-    
+/*    
     if(f){
-        if(c < -17){
+        if(c > 10){
             c=0;
             f=false;
         }else{
-            stroke(255,255,255,128);
-            strokeWeight(7);
-            fill(255,255,255);
-            ellipse(305,500+c*5,30,30);
-            ellipse(295,530+c*5,10,10);
-            ellipse(315,560+c*5,7,7);
-            c= c-1;
+            fill(255,255,0);
+            ellipse(100,100+c*5,100,100);
+            c= c+1;
+        }
+*/
+
+    if(f){
+    if(c < -17){
+        c=0;
+        f=false;
+    }else{
+        stroke(255,255,255,128);
+        strokeWeight(7);
+        fill(255,255,255);
+        ellipse(305,500+c*5,30,30);
+        ellipse(295,530+c*5,10,10);
+        ellipse(315,560+c*5,7,7);
+        c= c-1;
         }
 
+
     }
+
+              image(img2,204,499);
 }
+
+
+
 
 function drawSnow1(){
     noStroke();
