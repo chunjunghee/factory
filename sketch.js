@@ -328,8 +328,8 @@ var f = false;
     
     fill(255); 
     ellipse(100,dir4+20,10,10);
-    ellipse(95,dir1+33,7,7);
-    ellipse(120,dir1+27,15,15);
+    ellipse(95,dir4+10,7,7);
+    ellipse(120,dir4+27,15,15);
     //ellipse(285,dir1+10,5,5);
     //ellipse(290,dir1+16,3,3);
 
