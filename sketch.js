@@ -38,7 +38,7 @@ var count2;
 var c;
 
 function setup()
-{
+
     c = 0;
 
 
@@ -81,6 +81,8 @@ function setup()
     photo13 = loadImage("can6.png")
     photo14 = loadImage("left.png")
     photo15 = loadImage("leftLine.png")
+    photo16 = loadImage("apple1.png")
+
 
 
 
@@ -203,7 +205,17 @@ function draw()
 
     }
 
-    
+    if(f){
+    if(c < -17){
+        c=0;
+        f=false;
+    }else{
+        image(apple1,978+c*5,156)
+        c= c-1;
+        }
+
+
+    }    
 
         image(img2,204,499);
 
