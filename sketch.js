@@ -335,7 +335,7 @@ var f = false;
 
 
     dir4=dir4+3;    
-    if(dir4>274){
+    if(dir4>280){
      dir4=79;
     }
 
