@@ -81,6 +81,7 @@ function setup()
     photo13 = loadImage("can6.png")
     photo14 = loadImage("left.png")
     photo15 = loadImage("leftLine.png")
+    photo16 = loadImage("apple1.png")
 
 
 
@@ -197,6 +198,18 @@ function draw()
         ellipse(305,500+c*5,30,30);
         ellipse(295,530+c*5,10,10);
         ellipse(315,560+c*5,7,7);
+        c= c-1;
+        }
+
+
+    }
+
+     if(f){
+    if(c < -17){
+        c=0;
+        f=false;
+    }else{
+        image(apple1,305,500+c*5);
         c= c-1;
         }
 
