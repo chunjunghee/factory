@@ -110,11 +110,6 @@ function draw()
     var duration = 3000;
     var timing = (new Date()%duration)/duration;
 
-    image(photo11,689 + Math.cos(timing*2*PI)*30+ Math.cos(timing*2*PI)*7,           // x좌표
-          308 + Math.sin(timing*2*PI)*30+ Math.cos(timing*2*PI)*7, // y좌표
-          15,                                  // width
-          15);                     //height
-
 
  
     image(img,254,0);
@@ -199,7 +194,16 @@ function draw()
 
     }
 
-              image(img2,204,499);
+        image(img2,204,499);
+
+         var duration2 = 1000;
+         var timing2 = (new Date()%duration)/duration;
+
+        image(photo11,689 + Math.cos(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7,           // x좌표
+              308 + Math.sin(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7, // y좌표
+              15,                                  // width
+              15);                     //height
+
 }
 
 
