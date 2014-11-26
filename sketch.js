@@ -212,7 +212,7 @@ function draw()
         f=false;
     }else{
         image(photo16,978,130+c*5);
-        image(photo17,1022,170+c*5,30,30);
+        image(photo17,955,170+c*5,30,30);
         image(photo18,925,124+c*5);
         c= c-1;
         }
