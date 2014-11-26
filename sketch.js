@@ -27,7 +27,6 @@ var photo5;
 var photo6;
 
 
-
 var cup5;
 var cup6;
 var cup7;
@@ -82,7 +81,7 @@ function setup()
     photo13 = loadImage("can6.png")
     photo14 = loadImage("left.png")
     photo15 = loadImage("leftLine.png")
-    
+
 
 
     count=0;
@@ -204,8 +203,7 @@ function draw()
 
     }
 
-
-    }
+    
 
         image(img2,204,499);
 
