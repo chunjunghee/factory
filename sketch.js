@@ -101,6 +101,7 @@ function draw()
     drawSnow1();
     drawSnow2();
     drawSnow3();
+    drawWater();
 
 
     image(photo,248,124);
@@ -227,6 +228,23 @@ function draw()
 }
 
 
+function drawWater(){
+    noStroke();
+    
+    fill(255); 
+    ellipse(85,dir1+20,10,10);
+    ellipse(95,dir1+33,15,15);
+    ellipse(100,dir1+27,5,5);
+    ellipse(78,dir1+10,7,7);
+    ellipse(90,dir1+16,10,10);
+
+
+    dir1=dir1+1.5;    
+    if(dir1>130){
+     dir1=40;
+    }
+
+    }    
 
 
 function drawSnow1(){
