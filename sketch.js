@@ -76,6 +76,7 @@ function setup()
     photo9 = loadImage("candy3.png");
     photo10 = loadImage("midCandyBox.png")
     photo11 = loadImage("can4.png")
+    photo12 = loadImage("can5.png")
 
 
 
@@ -204,7 +205,7 @@ function draw()
               15,                                  // width
               15);                     //height
 
-        image(photo11,689 + Math.sin(timing2*2*PI)*30+ Math.sin(timing2*2*PI)*7,           // x좌표
+        image(photo12,689 + Math.sin(timing2*2*PI)*30+ Math.sin(timing2*2*PI)*7,           // x좌표
               308 + Math.cos(timing2*2*PI)*30+ Math.sin(timing2*2*PI)*7, // y좌표
               15,                                  // width
               15);   
