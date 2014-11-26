@@ -24,6 +24,7 @@ var photo3;
 var photo4;
 var photo5;  
 var photo6;
+var photo7;
 
 
 var cup5;
@@ -63,6 +64,7 @@ function setup()
     photo4 = loadImage("candyBox2.png");
     photo5 = loadImage("rightLine.png");
     photo6 = loadImage("candyBox.png");
+    photo7 = loadImage("midCandyBox.png");
     cup5 = loadImage("cup5.png");
     cup6 = loadImage("cup6.png");
     cup7 = loadImage("cup7.png");
@@ -104,6 +106,7 @@ function draw()
     image(photo3,444,124);
     
     image(photo5,568,117);
+    image(photo7,650,259);
     
 
     var duration = 3000;
