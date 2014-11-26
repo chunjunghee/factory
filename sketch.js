@@ -240,7 +240,7 @@ function drawWater(){
 
 
     dir1=dir1+1.5;    
-    if(dir1>130){
+    if(dir1>250){
      dir1=40;
     }
 
