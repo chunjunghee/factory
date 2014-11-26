@@ -241,7 +241,7 @@ function drawWater(){
 
     dir1=dir1+1.5;    
     if(dir1>1000){
-     dir1=200;
+     dir1=600;
     }
 
     }    
