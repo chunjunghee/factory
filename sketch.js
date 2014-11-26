@@ -74,6 +74,7 @@ function setup()
     photo7 = loadImage("candy1.png");
     photo8 = loadImage("candy2.png");
     photo9 = loadImage("candy3.png");
+    photo10 = loadImage("midCandyBox.png")
 
 
 
