@@ -41,7 +41,7 @@ function setup()
     c = 0;
 
 
-    createCanvas(641,901);
+    createCanvas(1280,908);
     bg = loadImage("bg.png");
     img = loadImage("sugarBox.png");
     img2 = loadImage("midBox.png");
