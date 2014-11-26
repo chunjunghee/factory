@@ -196,7 +196,7 @@ function draw()
 
         image(img2,204,499);
 
-         var duration2 = 1000;
+         var duration2 = 500;
          var timing2 = (new Date()%duration)/duration;
 
         image(photo11,689 + Math.cos(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7,           // x좌표
