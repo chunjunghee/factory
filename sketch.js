@@ -329,7 +329,7 @@ var f = false;
     fill(255); 
     ellipse(100,dir4+30,10,10);
     ellipse(95,dir4+10,7,7);
-    ellipse(110,dir4+5,5,5);
+    ellipse(110,dir4+7,5,5);
     ellipse(105,dir4+0.1,13,13);
     //ellipse(290,dir1+16,3,3);
 
