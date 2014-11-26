@@ -75,6 +75,7 @@ function setup()
     photo8 = loadImage("candy2.png");
     photo9 = loadImage("candy3.png");
     photo10 = loadImage("midCandyBox.png")
+    photo11 = loadImage("can4.png")
 
 
 
@@ -108,6 +109,11 @@ function draw()
 
     var duration = 3000;
     var timing = (new Date()%duration)/duration;
+
+    image(photo11,689 + Math.cos(timing*2*PI)*300+ Math.cos(timing*2*PI)*70,           // x좌표
+          308 + Math.sin(timing*2*PI)*300+ Math.cos(timing*2*PI)*70, // y좌표
+          60,                                  // width
+          60);                     //height
 
 
  
