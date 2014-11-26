@@ -79,6 +79,7 @@ function setup()
     photo12 = loadImage("can5.png")
     photo13 = loadImage("can6.png")
     photo14 = loadImage("left.png")
+    photo15 = loadImage("leftLine.png")
 
 
 
@@ -109,6 +110,7 @@ function draw()
     image(photo5,568,117);
     image(photo10,650,259);
     image(photo14,38,18);
+    image(photo15,79,153);
     
 
     var duration = 3000;
