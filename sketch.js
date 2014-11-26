@@ -110,7 +110,7 @@ function draw()
     var duration = 3000;
     var timing = (new Date()%duration)/duration;
 
-    image(photo11,689 + Math.cos(timing*2*PI)*0.1+ Math.cos(timing*2*PI*0.5      // x좌표
+    image(photo11,689 + Math.cos(timing*2*PI)*0.1+ Math.cos(timing*2*PI*0.5,     // x좌표
           308 + Math.sin(timing*2*PI)*300+ Math.cos(timing*2*PI)*70, // y좌표
           15,                                  // width
           15);                     //height
