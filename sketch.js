@@ -2,6 +2,7 @@ var bg;
 var dir1=40;
 var dir2=40;
 var dir3=40;
+var dir4=79;
 var img;  
 var img2;
 var img3;
@@ -326,16 +327,16 @@ var f = false;
     noStroke();
     
     fill(255); 
-    ellipse(100,dir1+20,10,10);
+    ellipse(100,dir4+20,10,10);
     //ellipse(270,dir1+33,4,4);
     //ellipse(278,dir1+27,7,7);
     //ellipse(285,dir1+10,5,5);
     //ellipse(290,dir1+16,3,3);
 
 
-    dir1=dir1+1.5;    
-    if(dir1>3000){
-     dir1=79;
+    dir4=dir4+1.5;    
+    if(dir4>3000){
+     dir4=79;
     }
 
     }    
