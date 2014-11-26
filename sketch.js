@@ -205,8 +205,8 @@ function draw()
               15,                                  // width
               15);                     //height
 
-        image(photo12,689 + Math.sin(timing2*2*PI)*20+ Math.sin(timing2*2*PI)*3,           // x좌표
-              308 + Math.cos(timing2*2*PI)*20+ Math.sin(timing2*2*PI)*3, // y좌표
+        image(photo12,684 + Math.sin(timing2*2*PI)*20+ Math.sin(timing2*2*PI)*3,           // x좌표
+              332 + Math.cos(timing2*2*PI)*20+ Math.sin(timing2*2*PI)*3, // y좌표
               15,                                  // width
               15);   
 
